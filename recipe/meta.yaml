@@ -12,7 +12,7 @@ build:
   skip: true  # [py<311]
   script_env:
     - GIT_VERSION_INFO={{ version }}
-  number: 0
+  number: 1
   missing_dso_whitelist:
     - '*'        # [win]
   script:
